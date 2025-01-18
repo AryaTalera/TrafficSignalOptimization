@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-20 18:57:58.726679 by osmWebWizard.py v1_21_0+0000-d7b3b481c43
+<configuration>
+    <net-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.net.xml.gz"/>
+    <output-trip-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.pedestrian.trips.xml"/>
+    <route-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.pedestrian.rou.xml"/>
+    <pedestrians value="True"/>
+    <prefix value="ped"/>
+    <vehicle-class value="pedestrian"/>
+    <fringe-factor value="1"/>
+    <max-distance value="2000.0"/>
+    <insertion-density value="10.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ped_pedestrian" vClass="pedestrian"/>
+    <person id="ped0" depart="0.00" type="ped_pedestrian">
+        <walk from="1006784610#1" to="-1276733660"/>
+    </person>
+    <person id="ped1" depart="325.78" type="ped_pedestrian">
+        <walk from="1006784604#0" to="-914654729"/>
+    </person>
+    <person id="ped2" depart="651.55" type="ped_pedestrian">
+        <walk from="1306391205#0" to="1006784610#2"/>
+    </person>
+    <person id="ped3" depart="977.33" type="ped_pedestrian">
+        <walk from="758894275" to="-669886621"/>
+    </person>
+    <person id="ped4" depart="1303.11" type="ped_pedestrian">
+        <walk from="1006784606#1" to="-1276733660"/>
+    </person>
+    <person id="ped5" depart="1628.89" type="ped_pedestrian">
+        <walk from="-914654729" to="1006784607#2"/>
+    </person>
+    <person id="ped6" depart="1954.66" type="ped_pedestrian">
+        <walk from="-1276733660" to="-887756716"/>
+    </person>
+    <person id="ped7" depart="2280.44" type="ped_pedestrian">
+        <walk from="1006784610#1" to="1006784608#0"/>
+    </person>
+    <person id="ped8" depart="2606.22" type="ped_pedestrian">
+        <walk from="-914654729" to="1006784609#0"/>
+    </person>
+    <person id="ped9" depart="2931.99" type="ped_pedestrian">
+        <walk from="179988972" to="-1218492832"/>
+    </person>
+    <person id="ped10" depart="3257.77" type="ped_pedestrian">
+        <walk from="179988972" to="1218492831"/>
+    </person>
+    <person id="ped11" depart="3583.55" type="ped_pedestrian">
+        <walk from="1006784604#2" to="-766130194"/>
+    </person>
+</routes>

@@ -1,0 +1,8 @@
+# Ignore virtual environment directories
+my_project_env/
+
+# Other typical files to ignore
+*.pyc
+*.pyo
+__pycache__
+*.log

@@ -1,0 +1,5 @@
+my_project_env/* filter=lfs diff=lfs merge=lfs -text
+my_project_env/Lib/site-packages/clang/native/libclang.dll filter=lfs diff=lfs merge=lfs -text
+my_project_env/Lib/site-packages/torch/lib/torch_cpu.dll filter=lfs diff=lfs merge=lfs -text
+my_project_env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text
+my_project_env/Lib/site-packages/torch/lib/dnnl.lib filter=lfs diff=lfs merge=lfs -text

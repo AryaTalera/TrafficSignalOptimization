@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-12-20 18:57:58.304568 by osmWebWizard.py v1_21_0+0000-d7b3b481c43
+<configuration>
+    <net-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.net.xml.gz"/>
+    <output-trip-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.motorcycle.trips.xml"/>
+    <route-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.motorcycle.rou.xml"/>
+    <prefix value="motorcycle"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="motorcycle"/>
+    <fringe-factor value="2"/>
+    <vclass value="motorcycle"/>
+    <via-edge-types value="highway.motorway,highway.motorway_link,highway.trunk_link,highway.primary_link,highway.secondary_link,highway.tertiary_link"/>
+    <max-distance value="1200.0"/>
+    <remove-loops value="True"/>
+    <validate value="True"/>
+    <insertion-density value="4.0"/>
+</configuration>
+-->
+
+<!-- generated on 2024-12-20 18:57:58 by Eclipse SUMO duarouter Version 1.21.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.net.xml.gz"/>
+        <route-files value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.motorcycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Programming\BYOP\2024-12-20-18-57-53\osm.motorcycle.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="motorcycle_motorcycle" vClass="motorcycle"/>
+    <trip id="motorcycle0" type="motorcycle_motorcycle" depart="0.00" departLane="best" from="-526771305#0" to="-1036287937#1"/>
+    <trip id="motorcycle1" type="motorcycle_motorcycle" depart="284.98" departLane="best" from="-4967600#0" to="4967233#1"/>
+    <trip id="motorcycle2" type="motorcycle_motorcycle" depart="569.96" departLane="best" from="4967233#1" to="4967217#1"/>
+    <trip id="motorcycle3" type="motorcycle_motorcycle" depart="854.94" departLane="best" from="-526771305#2" to="-1036287937#4"/>
+    <trip id="motorcycle4" type="motorcycle_motorcycle" depart="1139.93" departLane="best" from="-526771305#2" to="-1036287937#1"/>
+    <trip id="motorcycle5" type="motorcycle_motorcycle" depart="1424.91" departLane="best" from="4967233#1" to="-1036287937#0"/>
+    <trip id="motorcycle6" type="motorcycle_motorcycle" depart="1709.89" departLane="best" from="1036287937#1" to="-4967233#0"/>
+    <trip id="motorcycle8" type="motorcycle_motorcycle" depart="2279.85" departLane="best" from="4967233#1" to="-1036287937#4"/>
+    <trip id="motorcycle9" type="motorcycle_motorcycle" depart="2564.83" departLane="best" from="-4967600#1" to="-1036287937#0"/>
+    <trip id="motorcycle10" type="motorcycle_motorcycle" depart="2849.81" departLane="best" from="-4967600#1" to="4967233#0"/>
+    <trip id="motorcycle12" type="motorcycle_motorcycle" depart="3419.78" departLane="best" from="95707836#0" to="-4971184"/>
+</routes>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-01-17 13:33:05.021573 by osmWebWizard.py v1_21_0+0000-d7b3b481c43
+<configuration>
+    <net-file value="C:\Users\HP\Sumo\2025-01-17-13-32-56\osm.net.xml.gz"/>
+    <output-trip-file value="C:\Users\HP\Sumo\2025-01-17-13-32-56\osm.motorcycle.trips.xml"/>
+    <route-file value="C:\Users\HP\Sumo\2025-01-17-13-32-56\osm.motorcycle.rou.xml"/>
+    <prefix value="motorcycle"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="motorcycle"/>
+    <fringe-factor value="2"/>
+    <vclass value="motorcycle"/>
+    <via-edge-types value="highway.motorway,highway.motorway_link,highway.trunk_link,highway.primary_link,highway.secondary_link,highway.tertiary_link"/>
+    <max-distance value="1200.0"/>
+    <remove-loops value="True"/>
+    <validate value="True"/>
+    <insertion-density value="4.0"/>
+</configuration>
+-->
+
+<!-- generated on 2025-01-17 13:33:04 by Eclipse SUMO duarouter Version 1.21.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\HP\Sumo\2025-01-17-13-32-56\osm.net.xml.gz"/>
+        <route-files value="C:\Users\HP\Sumo\2025-01-17-13-32-56\osm.motorcycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\HP\Sumo\2025-01-17-13-32-56\osm.motorcycle.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="motorcycle_motorcycle" vClass="motorcycle"/>
+    <trip id="motorcycle0" type="motorcycle_motorcycle" depart="0.00" departLane="best" from="435715052#1" to="-1027596042#1"/>
+    <trip id="motorcycle1" type="motorcycle_motorcycle" depart="187.08" departLane="best" departSpeed="max" from="-699466068#5" to="-685947368#0"/>
+    <trip id="motorcycle2" type="motorcycle_motorcycle" depart="374.17" departLane="best" departSpeed="max" from="699466068#0" to="52015139#2"/>
+    <trip id="motorcycle3" type="motorcycle_motorcycle" depart="561.25" departLane="best" from="8956059#5" to="-38922410#2"/>
+    <trip id="motorcycle4" type="motorcycle_motorcycle" depart="748.34" departLane="best" from="-8956240#1" to="-1027596042#2"/>
+    <trip id="motorcycle5" type="motorcycle_motorcycle" depart="935.42" departLane="best" from="-685948069" to="-8970323#0"/>
+    <trip id="motorcycle6" type="motorcycle_motorcycle" depart="1122.51" departLane="best" from="-1027596042#1" to="417316813#7"/>
+    <trip id="motorcycle7" type="motorcycle_motorcycle" depart="1309.59" departLane="best" from="52015139#0" to="1027596042#1"/>
+    <trip id="motorcycle8" type="motorcycle_motorcycle" depart="1496.68" departLane="best" from="-685948070#0" to="38922410#2"/>
+    <trip id="motorcycle9" type="motorcycle_motorcycle" depart="1683.76" departLane="best" departSpeed="max" from="8942481#0" to="1027596041"/>
+    <trip id="motorcycle10" type="motorcycle_motorcycle" depart="1870.85" departLane="best" departSpeed="max" from="8935314" to="-52015139#4"/>
+    <trip id="motorcycle11" type="motorcycle_motorcycle" depart="2057.93" departLane="best" departSpeed="max" from="-8955035#3" to="-435715052#1"/>
+    <trip id="motorcycle12" type="motorcycle_motorcycle" depart="2245.02" departLane="best" from="8962988#1" to="-8935314"/>
+    <trip id="motorcycle13" type="motorcycle_motorcycle" depart="2432.10" departLane="best" from="-417316813#3" to="-417316813#1"/>
+    <trip id="motorcycle14" type="motorcycle_motorcycle" depart="2619.19" departLane="best" from="-8955035#1" to="417316813#2"/>
+    <trip id="motorcycle15" type="motorcycle_motorcycle" depart="2806.27" departLane="best" departSpeed="max" from="8935314" to="685947369#2"/>
+    <trip id="motorcycle16" type="motorcycle_motorcycle" depart="2993.36" departLane="best" from="117887168#1" to="8962988#1"/>
+    <trip id="motorcycle17" type="motorcycle_motorcycle" depart="3180.44" departLane="best" from="-8956059#5" to="1027596042#2"/>
+    <trip id="motorcycle18" type="motorcycle_motorcycle" depart="3367.53" departLane="best" from="8942481#1" to="-417316813#3"/>
+    <trip id="motorcycle19" type="motorcycle_motorcycle" depart="3554.61" departLane="best" from="-8955035#2" to="38922410#1"/>
+</routes>
